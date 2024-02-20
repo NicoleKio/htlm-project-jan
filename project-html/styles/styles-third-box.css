@@ -1,0 +1,70 @@
+
+#third-box{
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+}
+/*----------------------------------------------------------- ARTICLE ----------------------------------------------------------------*/
+
+
+#third-box>article{
+    height: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#third-box>article>p{
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 55px;
+    width: 40vw;
+}
+
+
+/*------------------------------------------------------- MAIN SECTION -----------------------------------------------------------*/
+
+#third-box>section{
+    padding: 0 13%;
+    height: 72%;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#third-box>section>div{
+    width: 23.3%;
+    height: 35%;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#third-box>section p:nth-child(2n+2){
+    margin: 1rem;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#third-box>section p:nth-child(3n+3), #fifth-box>footer>p{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 1%;
+    width: 15vw;
+}

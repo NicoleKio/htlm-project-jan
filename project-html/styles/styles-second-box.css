@@ -1,0 +1,63 @@
+
+
+#second-box{
+    height: 100vh;
+}
+
+/*----------------------------------------------------------- SECTIONS --------------------------------------------------------------------*/
+
+#second-box section{
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left-box{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-box{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-box p{
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    margin-right: 4%;
+
+    font-size: 55px;
+    width: 30vw;
+
+}
+
+.right-box p{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Lato", sans-serif;
+    margin-left: 6%;
+    font-size: 16px;
+    width: 30vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
+
+/*------------------------------------------------------- IMG DIV ------------------------------------------------------------*/
+
+#second-box>div:last-child{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-box img{
+    height: 90%;
+    width: 65%;
+}

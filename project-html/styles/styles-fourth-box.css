@@ -1,0 +1,35 @@
+
+
+#fourth-box{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+}
+
+#fourth-box>section{
+    box-sizing: border-box;
+    height: 90%;
+    width: 80%;
+    padding: 5%;
+}
+
+#fourth-box p{
+    display: block;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 2%;
+}
+
+#fourth-box img{
+    width: 30%;
+}
+
+#fourth-box article{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
